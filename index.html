@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Resistor Calculator</title>
+    <!-- <style>
+        body{
+    background-color: #33ccff;
+}
+button{
+    background-color: #ff99cc;
+    border-radius: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+input{
+  padding: 6px 10px;
+  /* margin: 8px 0; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+    </style> -->
+</head>
+<body style="text-align: center">
+
+        <label><h3>Choose First color of Resistor:</h3>
+            <input list="FirstColor" name="myBrowser" id="color1" placeholder="First Color ?" /></label>
+                <datalist id="FirstColor">
+                    <option value="Black">
+                    <option value="Brown">
+                    <option value="Red">
+                    <option value="Orange">
+                    <option value="Yellow">
+                    <option value="Green">
+                    <option value="Blue">
+                    <option value="Violet">
+                    <option value="Grey">
+                    <option value="White">
+                </datalist>
+
+                
+        <label><h3>Choose Second color of Resistor:</h3>
+                        <input list="SecondColor" name="myBrowser" id="color2" placeholder="Second Color ?"/></label>
+                            <datalist id="SecondColor">
+                                <option value="Black">
+                                <option value="Brown">
+                                <option value="Red">
+                                <option value="Orange">
+                                <option value="Yellow">
+                                <option value="Green">
+                                <option value="Blue">
+                                <option value="Violet">
+                                <option value="Grey">
+                                <option value="White">
+                            </datalist>
+
+                    
+            <!-- <label><h3>Choose Additional color of Resistor:</h3>
+                        <input list="NextColor" name="myBrowser" id="color5" placeholder="Additional color ?"/></label>
+                            <datalist id="NextColor">
+                                <option value="Black">
+                                <option value="Brown">
+                                <option value="Red">
+                                <option value="Orange">
+                                <option value="Yellow">
+                                <option value="Green">
+                                <option value="Blue">
+                                <option value="Violet">
+                                <option value="Grey">
+                                <option value="White">
+                            </datalist> -->
+
+                    
+            <label><h3>Choose Third color of Resistor:</h3>
+                        <input list="ThirdColor" name="myBrowser" id="color3" placeholder="Third Color ?"/></label>
+                            <datalist id="ThirdColor">
+                                <option value="Black">
+                                <option value="Brown">
+                                <option value="Red">
+                                <option value="Orange">
+                                <option value="Yellow">
+                                <option value="Green">
+                                <option value="Blue">
+                                <option value="Violet">
+                                <option value="Grey">
+                                <option value="White">
+                                <option value="Silver">
+                                <option value="Gold">
+                            </datalist>
+
+                            
+            <label><h3>Choose Fourth color of Resistor:</h3>
+                        <input list="FourthColor" name="myBrowser" id="color4" placeholder="Fourth Color ?" /></label>
+                            <datalist id="FourthColor">
+                                <option value="Brown">
+                                <option value="Red">
+                                <option value="Green">
+                                <option value="Blue">
+                                <option value="Violet">
+                                <option value="Grey">
+                                <option value="Silver">
+                                <option value="Gold">
+                            </datalist>
+
+                            <br>
+                            <br>
+            <button onclick="calculates()"><h3>Calculate</h3></button>
+            <div id="result">
+
+            </div>
+            <script src="index.js"></script>
+        
+</body>
+</html>
